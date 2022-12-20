@@ -1,4 +1,4 @@
-
+[meet link](https://meet.google.com/aqj-nugu-xvw)
  ## N/B Why async and await is used?
 Async/Await makes it easier to write promises. The keyword 'async' before a function makes the function return a promise, always. And the keyword await is used inside async functions, which makes the program wait until the Promise resolves
 
@@ -26,11 +26,11 @@ app.listent(PORT,()=>{
 ## express Routing
 ```javascript
 const express = require('express')
-const router = express.Router()
+
 const app = express()
 
 
-router.get('/',(req,res) => {
+app.get('/',(req,res) => {
     res.status(200).json("Hello world")
 })
 
@@ -48,7 +48,6 @@ app.listent(PORT,()=>{
 
 ```javascript
 const express = require('express')
-const router = express.Router()
 const mongoose = require('mongoose')
 const app = express()
 
@@ -75,7 +74,7 @@ app.listent(PORT,()=>{
 
 ```javascript
 const express = require('express')
-const router = express.Router()
+
 const mongoose = require('mongoose')
 const app = express()
 
@@ -109,14 +108,14 @@ const userSchema = new mongoose.Schema({
     },
 })
 
-router.get('/',(req,res) => {
+app.get('/',(req,res) => {
     res.status(200).json("Hello world")
 })
 
 
 const PORT = 8000
 
-app.listent(PORT,()=>{
+app.listen(PORT,()=>{
     console.log(`listening on PORT ${PORT}`)
 })
 
@@ -128,7 +127,6 @@ app.listent(PORT,()=>{
 
 ```javascript
 const express = require('express')
-const router = express.Router()
 const mongoose = require('mongoose')
 const app = express()
 
