@@ -1,6 +1,8 @@
 const express = require("express");
 const userRoute = require("./routes/users.route");
+const cors = require("cors");
 const mongoose = require("mongoose");
+
 // initialize express
 const app = express();
 
@@ -15,6 +17,7 @@ connectDb();
 
 // http://localhost:8000/api
 // middleware
+app.use(cors());
 app.use(express.json());
 app.use("/api/", userRoute);
 const PORT = 8000;
