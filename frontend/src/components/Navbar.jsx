@@ -3,10 +3,10 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav class="navbar bg-light">
+      <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Manage user Api
+            Mgmt
           </a>
         </div>
       </nav>

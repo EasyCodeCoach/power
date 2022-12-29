@@ -1,12 +1,15 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Cards from "./components/Cards";
+import Wrapper from "./Components/Wrapper";
+import Navbar from "./Components/Navbar";
+import Form from "./Components/Form";
 
 function App() {
+  
   return (
     <div>
       <Navbar />
-      <Cards />
+      <Form />
+      <Wrapper />
     </div>
   );
 }

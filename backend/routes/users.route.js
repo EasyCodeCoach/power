@@ -65,7 +65,7 @@ router.delete("/delete/user/:id", async (req, res) => {
   }
 });
 
-// http://localhost:8000/api/update/users
+// http://localhost:8000/api/user
 // create user
 router.post("/user", async (req, res) => {
   const name = req.body.name;
