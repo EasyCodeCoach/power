@@ -3,13 +3,13 @@
 ## Tailwind installation 
 <p>Inside your react application</p>
 
-```html
-//Install tailwindcss via npm, and create your tailwind.config.js file.
 
-1. npm install -D tailwindcss postcss autoprefixer
-2. npx tailwindcss init
+<em>Install tailwindcss via npm, and create your tailwind.config.js file.</em>
+<ul>
+<li> npm install -D tailwindcss postcss autoprefixer</li>
+<li> npx tailwindcss init </li>
+</ul>
 
-```
 
 ## 1. Add Tailwind to your PostCSS configuration
 ```javascript
