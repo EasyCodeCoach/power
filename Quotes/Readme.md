@@ -3,11 +3,11 @@
 ## Tailwind installation 
 <p>Inside your react application</p>
 
-```json
+```html
 //Install tailwindcss via npm, and create your tailwind.config.js file.
 
 1. npm install -D tailwindcss postcss autoprefixer
-2.npx tailwindcss init
+2. npx tailwindcss init
 
 ```
 
@@ -25,7 +25,7 @@ module.exports = {
 
 ## 2. Configure your template paths
 <b>/src/style.css</b>
-```json
+```js
 
 //Add the paths to all of your template files in your tailwind.config.js file.
 
